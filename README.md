@@ -21,3 +21,4 @@ cd k8s_images
 chmod +x k8s_pull.sh
 ./k8s_pull.sh
 ```
+> 注: master 分支默认自动同步 k8s 最新的镜像版本

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 KUBE_V="v1.10.0"
 ETCD_V="3.1.12"
 PAUSE_V="3.1"

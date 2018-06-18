@@ -11,4 +11,13 @@ DASHBOARD_V="v1.8.3"
 DNS_V="1.14.8"
 ```
 
-> 版本信息来自 kubeadm 工具生成的 .yaml 文件
+> 版本信息来自 kubeadm 工具生成的 .yaml 文件,k8s不同版本需要的镜像不一样。
+
+#### 关于获取镜像
+
+```bash
+git clone git@github.com:yahaa/k8s_images.git
+cd k8s_images
+chmod +x k8s_pull.sh
+./k8s_pull.sh
+```
